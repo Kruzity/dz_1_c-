@@ -1,2 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b9d8690a-4dcf-472c-9e44-729fe184f837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{351504ec-5f71-467d-a462-b40a9e06c3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{5b3ed107-6ce9-410b-9c52-9f50d63290c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Libs">
+      <UniqueIdentifier>{2dd22634-3f46-4e5a-b1c4-29d1a689572b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Entities">
+      <UniqueIdentifier>{80d20363-2984-4fa5-af4c-638a6407218e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{1b81d59a-bab2-411c-94f5-42a7989fa0ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Libs\Libs.h">
+      <Filter>Core\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Main\Menu.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Entities\ShoeShop.h">
+      <Filter>Core\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Main\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Entities\ShoeShop.cpp">
+      <Filter>Core\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
