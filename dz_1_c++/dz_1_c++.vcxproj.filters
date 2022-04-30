@@ -24,11 +24,11 @@
     <ClInclude Include="..\Core\Libs\Libs.h">
       <Filter>Core\Libs</Filter>
     </ClInclude>
-    <ClInclude Include="..\Main\Menu.h">
-      <Filter>UI\Menu</Filter>
-    </ClInclude>
     <ClInclude Include="..\Core\Entities\ShoeShop.h">
       <Filter>Core\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\Menu\Menu.h">
+      <Filter>UI\Menu</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

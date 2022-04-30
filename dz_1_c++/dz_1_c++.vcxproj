@@ -141,7 +141,7 @@
   <ItemGroup>
     <ClInclude Include="..\Core\Entities\ShoeShop.h" />
     <ClInclude Include="..\Core\Libs\Libs.h" />
-    <ClInclude Include="..\Main\Menu.h" />
+    <ClInclude Include="..\UI\Menu\Menu.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Core\Entities\ShoeShop.cpp" />

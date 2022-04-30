@@ -11,8 +11,8 @@ struct ShoeShop
 
 ShoeShop* ini(int array_size);
 void printShop(ShoeShop a);
-void printShopsForName();	
-void printShopsForAddress();
-void searchSeller();
-void searchShoes();
-void deliverShoes();
+void printShopsForName(ShoeShop* array, int array_size);
+void printShopsForAddress(ShoeShop* array, int array_size);
+void searchSeller(ShoeShop* array, int array_size);
+void searchShoes(ShoeShop* array, int array_size);
+void deliverShoes(ShoeShop*& array, int array_size);
